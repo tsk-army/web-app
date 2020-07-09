@@ -1,0 +1,11 @@
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.main-bar {
+    background: linear-gradient(to left, #7873ed, #a865e1);
+}
