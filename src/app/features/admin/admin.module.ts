@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { UsersManageComponent } from './users-manage/users-manage.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeAdminComponent } from './home-admin/home-admin.component';
+import { SharedModule } from '../../shared/shared.module';
 
 const routes: Routes = [
   {path: 'user-manage', component: UsersManageComponent},
@@ -14,7 +15,8 @@ const routes: Routes = [
   declarations: [UsersManageComponent, HomeAdminComponent],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    SharedModule
   ]
 })
 export class AdminModule { }

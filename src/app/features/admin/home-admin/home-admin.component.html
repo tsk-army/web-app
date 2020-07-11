@@ -1,1 +1,20 @@
-<p>home-admin works!</p>
+<div class="container mt-4">
+    <div class="row title-row">
+        <div class="col">
+            <h1 class="ta-c">
+                Panel de control de Administrador
+            </h1>
+            <hr class="main-hr">
+        </div>
+    </div>
+    <div class="row first-item-row">
+        <div class="col-12 col-md-6 col-lg-4 mt-3" *ngFor="let opt of options">
+            <div class="card admin-card">
+                <div class="card-body">
+                  <h5 class="card-title">{{opt.title}}</h5>
+                  <p class="card-text">{{opt.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

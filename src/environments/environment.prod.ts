@@ -2,7 +2,7 @@ export const environment = {
 	production: true
 };
 
-export const firebaseId = {
+export const firebaseConfig = {
 	apiKey: "AIzaSyBadx9Sy4HZloLXyDOypLRp3bJG4LaBql0",
 	authDomain: "tsk-army.firebaseapp.com",
 	databaseURL: "https://tsk-army.firebaseio.com",

@@ -1,0 +1,39 @@
+$coollightpurple: #7873ed;
+
+.title-row {
+    //font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 3rem;
+}
+
+.first-item-row {
+    margin-top: 1rem;
+}
+
+.admin-card {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #333;
+    border-color: silver;
+    transition: 0.2s;
+    min-height: 126px;
+
+    .card-title, .card-text {
+        text-align: center;
+    }
+
+    .card-text {
+        color: silver;
+        transition: 0.2s;
+    }
+}
+
+.admin-card:hover {
+    color: $coollightpurple;
+    border-color: $coollightpurple;
+    cursor: pointer;
+
+    .card-text {
+        color: $coollightpurple;
+    }
+}
