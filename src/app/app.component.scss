@@ -1,11 +1,17 @@
 .sticky {
     position: fixed;
-    width: 100%;
     top: 0;
     overflow: hidden;
     z-index: 2;
+    //background: linear-gradient(to left, rgb(127, 35, 248), rgb(84, 23, 163)) !important;
+    background-color: rgb(84, 23, 163) !important;
+    width: 100%;
 }
 
 .main-bar {
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background: transparent;
+    transition: 1s;
 }
